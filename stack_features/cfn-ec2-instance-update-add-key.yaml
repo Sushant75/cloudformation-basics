@@ -1,8 +1,0 @@
-AWSTemplateFormatVersion: "2010-09-09"
-Resources:
-  DevEC2Instance:
-    Type: AWS::EC2::Instance
-    Properties:
-      ImageId: ami-0b0dcb5067f052a63 # This image ID belongs to us-east-1
-      InstanceType: t2.micro
-      KeyName: cfn-key-1
